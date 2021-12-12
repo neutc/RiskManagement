@@ -16,15 +16,15 @@ general:
 ### Step-specific configuration
 steps:
   cloudFoundryDeploy:
-  cloudFoundry:
-    apiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    org: "fdcada56trial"
-    space: "dev"
-    credentialsId: "cfdeploy"
-    appName: ""
-    mtaDeployParameters: "-f --version-rule ALL"
-    artifactPrepareVersion:
-      versioningType: cloud_noTag
+    cloudFoundry:
+      apiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
+      org: "fdcada56trial"
+      space: "dev"
+      credentialsId: "cfdeploy"
+      appName: ""
+      mtaDeployParameters: "-f --version-rule ALL"
+      artifactPrepareVersion:
+        versioningType: cloud_noTag
 
 ### Stage-specific configuration
 stages:
